@@ -28,7 +28,7 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 25px 0px;
+    padding: 18px 0px;
     margin-top: 0px;
     
 
@@ -66,32 +66,43 @@ a{
     background-color: #d6b4df;
 }
 
-
-.presentacion{
+.bloque-de-presentacion{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 70%;
+}
+.presentacion{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    padding-top: 120px;
+    min-height: calc(100vh - 80px);
 }
 
 .descripcion{
     display: flex;
     flex-direction: column;
-    text-align: center;
     font-weight: bold;
 }
 
+.mi-nombre-es{
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
 .loquehago{
     color: white;
     background-color: rgb(180 127 203);
-    font-size: 30px;
+    font-size: 20px;
     border-radius: 100px;
     display: flex;
     align-items: center;
     justify-content: center;    
-    width: 70%;
-    margin: 60px 60px;
+    width: 35%;
+    margin-top: 1em;
     padding: 10px 0px;
     transition: background-color .2s;
     flex-wrap: wrap;
@@ -100,30 +111,23 @@ a{
     background-color: #d6b4df;
 }
 h1{
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Rock Salt', cursive;
 }
 
 
-.imagen_notebook{
-    margin-top: 60px;
-    margin-left: 60px;
+.about-image{
+max-width: 600px;
 }
-/* Img svg quiero que la línea sea más fina*/
-.tilde{
-    display: flex;
-    height: 180px;
-    width: 180px;
-    position:absolute;
-    left: 15;
-    z-index: -1;
-}
+
 .conocimientos{
+    background-color: #F6F7FB;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding: 3em;
 }
 .titulo{
     display: flex;
@@ -141,8 +145,7 @@ h2{
     
 }
 p{
-    font-size: 20px;
-    font-weight: 100px;
+    font-size: 1.25em;
 }
 
 .languages_icons,
@@ -209,7 +212,6 @@ p{
     align-items: center;
     justify-content: center;
     padding: 60px;
-    margin-top: 80px;
 }
 .columna{
 width: 100%;
