@@ -13,18 +13,18 @@
 
 </head>
 <body>
-    <header>
+    <div class="barra-de-navegacion-principal">
         <div class="barrasuperior">
             <nav>
                 <ul class="bar1">
-                    <li class="list"><a class="boton-de-navegacion" href="#about">HOLA</a></li>
-                    <li class="list"><a class="boton-de-navegacion" href="#mis_conocimientos">CONOCIMIENTOS</a></a></li>
-                    <li class="list"><a class="boton-de-navegacion" href="#proyectos">PROYECTOS</a></li>
+                    <li class="list"><a class="link-tarjetas" href="#about">HOLA</a></li>
+                    <li class="list"><a class="link-tarjetas" href="#mis_conocimientos">CONOCIMIENTOS</a></a></li>
+                    <li class="list"><a class="link-tarjetas" href="#proyectos">PROYECTOS</a></li>
                     <li class="list contacto"><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
         </div>
-    </header> 
+    </div> 
     <main>
         <section class="presentacion">
             <div class="descripcion"id="about">
@@ -39,7 +39,9 @@
             </div>
             </div>
             <div class="imagen_notebook">
-                <img src="imagen1.svg"alt="imagen_notebook"/>
+                <figure class="notebook-figure">
+                    <img src="imagen1.svg"alt="imagen_notebook"/>
+                </figure>
             </div>
         </section>
         <section class="conocimientos"id="mis_conocimientos">
@@ -48,38 +50,38 @@
                     <h2>Mis conocimientos</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, animi maiores sunt quisquam debitis corporis? Nostrum voluptatibus modi a, accusantium.</p>
                 </div>
-                <div class="languages">
-                    <div class="iconos">
+                <div class="tarjetas-de-pagina">
+                    <div class="contenedor-imagenes-de-tarjetas">
                         <figure class="languages_icons">
                             <img src="html5.svg"alt="html5"/>
                         </figure>
                         <p>HTML 5</p>
                     </div>
-                    <div class="iconos">
+                    <div class="contenedor-imagenes-de-tarjetas">
                         <figure class="languages_icons">
                             <img src="css.svg"alt="CSS3"/>
                         </figure>
                         <p>CSS 3</p>
                     </div>
-                    <div class="iconos">
+                    <div class="contenedor-imagenes-de-tarjetas">
                         <figure class="languages_icons">
                             <img src="sass.svg"alt="SASS"/>
                         </figure>
                         <p>Sass</p>
                     </div>
-                    <div class="iconos">
+                    <div class="contenedor-imagenes-de-tarjetas">
                         <figure class="languages_icons">
                             <img src="javascript.svg"alt="JavaScript"/>
                         </figure>
                         <p>JavaScript</p>
                     </div>
-                    <div class="iconos">
+                    <div class="contenedor-imagenes-de-tarjetas">
                         <figure class="languages_icons">
                             <img src="react.svg"alt="react"/>
                         </figure>
                         <p>React</p>
                     </div>
-                    <div class="iconos">
+                    <div class="contenedor-imagenes-de-tarjetas">
                         <figure class="languages_icons">
                             <img src="git.svg"alt="GIT"/>
                         </figure>
@@ -101,67 +103,76 @@
                     <h2>Mis Proyectos</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quo nobis voluptatum tenetur! Id, nesciunt?</p>
                 </div>
-                <div class="languages">
-                    <div class="iconos">
-                        <div class="icono-centrado">
-                            <!--al clickear en portfolio la pagina que se abre no tiene css aplicado, que deberia colocar en lugar de index.html?--> 
-                        <a class="boton-de-navegacion"href="index.html"target="_blank">
-                            <figure class="languages_icons">
+                <div class="tarjetas-de-pagina">
+                    <div class="contenedor-imagenes-de-tarjetas">
+                        <div class="imagen-centrada">
+                            <a class="link-tarjetas"href="index.html"target="_blank">
+                            <figure class="imagen-de-proyectos">
                                 <img src="portafolio.jpg"alt="Portfolio"/>
                             </figure>
                             <p>Portfolio</p>
                         </a>
                         </div>
                     </div>
-                    <div class="iconos">
-                        <div class="icono-centrado">
-                        <a class="boton-de-navegacion"href=""target="_blank">
-                            <figure class="languages_icons">
-                                <img src="editordememes.svg"alt="generador_de_memes"/>
-                            </figure>
-                            <p>Generador de memes</p>
-                        </a>
+                    <div class="contenedor-imagenes-de-tarjetas">
+                        <div class="imagen-centrada">
+                            <a class="link-tarjetas"href=""target="_blank">
+                                <figure class="imagen-de-proyectos">
+                                    <img src="editordememes.svg"alt="generador_de_memes"/>
+                                </figure>
+                                <p>Generador de memes</p>
+                            </a>
                         </div>
                     </div>
-                    <div class="iconos">
-                        <a class="boton-de-navegacion" href=""target="_blank">
-                            <figure class="languages_icons">
-                                <img src="match3.svg"alt="match3"/>
-                            </figure>
-                            <p>Match 3</p>
-                        </a>
+                    <div class="contenedor-imagenes-de-tarjetas">
+                        <div class="imagen-centrada">
+                            <a class="link-tarjetas" href=""target="_blank">
+                                <figure class="imagen-de-proyectos">
+                                    <img src="match3.svg"alt="match3"/>
+                                </figure>
+                                <p>Match 3</p>
+                            </a>
+                        </div>
                     </div>
-                    <div class="iconos">
-                        <a class="boton-de-navegacion"href=""target="_blank">
-                            <figure class="languages_icons">
-                                <img src="controladordegastos.svg"alt="controlador_de_gastos"/>
-                            </figure>
-                            <p>Controlador de gastos</p>
-                        </a>
+                    <div class="contenedor-imagenes-de-tarjetas">
+                        <div class="imagen-centrada">
+                            <a class="link-tarjetas"href=""target="_blank">
+                                <figure class="imagen-de-proyectos">
+                                    <img src="controladordegastos.svg"alt="controlador_de_gastos"/>
+                                </figure>
+                                <p>Controlador de gastos</p>
+                            </a>
+                        </div>
                     </div>
-                    <div class="iconos">
-                        <a class="boton-de-navegacion" href=""target="_blank">
-                            <figure class="languages_icons">
-                                <img src="reuniones.svg"alt="reuniones"/>
-                            </figure>
-                            <p>Administrador de reuniones</p>
-                        </a>
+                    <div class="contenedor-imagenes-de-tarjetas">
+                        <div class="imagen-centrada">
+                            <a class="link-tarjetas" href=""target="_blank">
+                                <figure class="imagen-de-proyectos">
+                                    <img src="reuniones.svg"alt="reuniones"/>
+                                </figure>
+                                <p>Administrador de reuniones</p>
+                            </a>
+                        </div>
                     </div>
-                    <div class="iconos">
-                        <a class="boton-de-navegacion" href=""target="_blank">
-                            <figure class="languages_icons">
-                                <img src="todoapp.svg"alt="todo_app"/>
-                            </figure>
-                            <p>Todo app</p>
-                        </a>
+                    <div class="contenedor-imagenes-de-tarjetas">
+                        <div class="imagen-centrada">
+                            <a class="link-tarjetas" href=""target="_blank">
+                                <figure class="imagen-de-proyectos">
+                                    <img src="todoapp.svg"alt="todo_app"/>
+                                </figure>
+                                <p>Todo app</p>
+                            </a>
+                        </div>
                     </div>
-                    <div class="iconos">
-                        <a class="boton-de-navegacion" href=""target="_blank">
-                            <figure class="languages_icons">
-                                <img src="peliculas.svg"alt="peliculas"/>
-                            </figure>
-                            <p>Buscador de películas</p>
-                        </a>
+                    <div class="contenedor-imagenes-de-tarjetas">
+                        <div class="imagen-centrada">
+                            <a class="link-tarjetas" href=""target="_blank">
+                                <figure class="imagen-de-proyectos">
+                                    <img src="peliculas.svg"alt="peliculas"/>
+                                </figure>
+                                <p>Buscador de películas</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -171,46 +182,64 @@
                 <section class="datos_de_contacto">
                     <h2>Contactame</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum optio vel delectus ipsa suscipit excepturi odit eligendi saepe. Consequatur, nobis laboriosam magni cum inventore laudantium ab quaerat aperiam! At, enim!</p>
+                    <section class="lista-de-redes">
                     <ul class="redes">
                         <li class="twitter">
-                            <a href="https://twitter.com/Sosantoro_"target="_blank">
+                            <a class="socialmedia-font"href="https://twitter.com/Sosantoro_"target="_blank">
                                 <img class="redes_iconos" src="twitter.svg"alt="twitter"/>
                                 @sosantoro_
                             </li>
                         <li class="github">
-                            <a href="https://github.com/SofiSantoro"target="_blank">
+                            <a class="socialmedia-font"href="https://github.com/SofiSantoro"target="_blank">
                                 <img class="redes_iconos" src="github.svg"alt="github"/>
                                 SofiSantoro
                             </a>
                         </li>
                         <li class="linkedin">
-                            <img class="redes_iconos" src="linkedin.svg"alt="linkedin"/>
-                            <a href="https://www.linkedin.com/in/sofia-santoro-b029834b/"target="_blank">SofiaSantoro</a>
+                            <a class="socialmedia-font"href="https://www.linkedin.com/in/sofia-santoro-b029834b/"target="_blank">
+                                <img class="redes_iconos" src="linkedin.svg"alt="linkedin"/>
+                                SofiaSantoro
+                            </a>
                         </li>
                         <li class="mail">
-                            <img class="redes_iconos" src="email.svg"alt="email"/>
-                            <a href="mailto:sofiaasantoro@gmail.com"target="_blank">sofiaasantoro@gmail.com
+                            <a class="socialmedia-font"href="mailto:sofiaasantoro@gmail.com"target="_blank">
+                                <img class="redes_iconos" src="email.svg"alt="email"/>
+                                sofiaasantoro@gmail.com
                             </a>
                         </li>
                     </ul>
+                    </section>
                 </section>
                 <section class="formulario">
                     <h2>Escribime</h2>
                     <form action="link donde se abre" method="POST">
-                            <label for="identificacion_de_nombre">Nombre*</label>
+                        <div class="input-identification">
+                            <div class="first-name">
+                                <label for="identificacion_de_nombre">Nombre*</label>
                                 <input type="text" name="primernombre" id="identificacion_de_nombre"placeholder="p. ej.: Sofía">
-                                
-                            <label for="identificacion_de_apellido">Apellido*</label>
+                            </div>
+
+                            <div class="last-name">
+                                <label for="identificacion_de_apellido">Apellido*</label>
                                 <input type="text" name="apellido" id="identificacion_de_apellido"placeholder="p. ej.: Santoro">
-                                
+                            </div>
+
+                        </div>
+
+                        <div class="email">
                             <label for="identificacion_de_email">Email*</label>
-                                <input type="email" name="email" id="identificacion_de_email"placeholder="p. ej. sofiaasantoro@gmail.com">
-                                
+                            <input type="email" name="email" id="identificacion_de_email"placeholder="p. ej. sofiaasantoro@gmail.com">
+                        </div>
+
+                        <!--como hago que el input sea mas grande?-->
+                        <div class="mensaje">
                             <label for="mensaje">Mensaje*</label>
-                                <input type="textarea" name="mensaje" id="mensaje"placeholder="Escriba un mensaje aquí">
-                        <p>       
-                        <input type="submit"class="send_button"value="Enviar">
-                        </p>
+                            <input type="textarea" name="mensaje" id="mensaje"placeholder="Escriba un mensaje aquí">
+                        </div>
+
+                            <p>       
+                            <input type="submit"class="send_button"value="Enviar">
+                            </p>
                     </form>
                 </section>
             </div>

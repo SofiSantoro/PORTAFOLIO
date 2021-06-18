@@ -9,7 +9,7 @@ body{
 
 }
 
-header{
+.barra-de-navegacion-principal{
     width: 100%;
     position: fixed;
     margin: 0px;
@@ -41,7 +41,7 @@ nav{
     margin: 15px;
 
 }
-.boton-de-navegacion{
+.link-tarjetas{
     color: black;
 
 }
@@ -82,7 +82,6 @@ a{
     font-weight: bold;
 }
 
-/* La letra no se pone blanca */
 .loquehago{
     color: white;
     background-color: rgb(180 127 203);
@@ -133,12 +132,12 @@ h1{
     flex-direction: column;
     margin: 50px;
     text-align: center;
+    font-weight: bold;
 }
 /* el h2 no se "engruesa"*/
 h2{
     color: black;
-    font-size: 3em;
-    font-weight:900;
+    font-size: 3.5em;
     
 }
 p{
@@ -146,18 +145,19 @@ p{
     font-weight: 100px;
 }
 
-.languages_icons{
+.languages_icons,
+.imagen-de-proyectos{
     height: 120px;
     width: 120px;
 }
-.languages{
+.tarjetas-de-pagina{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
-.iconos{
+.contenedor-imagenes-de-tarjetas{
     text-align: center;
     font-weight: 600;
     font-size: 30px;
@@ -175,14 +175,14 @@ p{
     transition: background-color .2s;
 
 }
-.iconos:hover{
+.contenedor-imagenes-de-tarjetas:hover{
     background-color: white;
     border: 1px solid rgb(180 127 203);
 }
 
-.icono-centrado{
+.imagen-centrada{
+    background-color: red;
     overflow: hidden;
-    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -219,6 +219,7 @@ max-width: 1100px;
 .redes_descripcion{
     height: 35px;
     width: 35px;
+    margin-right: 10px;
 
 }
 .contactame{
@@ -240,9 +241,19 @@ max-width: 1100px;
     border-radius: 80px;
 }
 .redes{
-    margin: 30px 0px;
     list-style: none;
-    font-size: 20px;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:0;
+    transition: 0.2s;
+}
+.socialmedia-font{
+    color: black;
+    display: flex;
+    align-items: center;
 }
 .formulario{
     width: 50%;
@@ -253,11 +264,14 @@ max-width: 1100px;
     width: 50%;
     padding-left: 15%;
     padding-right: 5%;
+    font-weight: bold;
+    max-width: 1000px;
 }
 label {
     margin-bottom: 10px;
     font-weight: 600;
     margin-top: 5px;
+    margin-left: 10px;
     display: block;
 
 }
@@ -269,6 +283,19 @@ textarea {
     padding: 10px 15px;
     border: none
 }
+
+.input-identification{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.first-name,
+.last-name{
+    box-sizing: border-box;
+    width: 45%;
+}
+
 .send_button{
     background-color: rgb(180 127 203);
     width: 25%;
