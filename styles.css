@@ -16,6 +16,12 @@ body{
     box-shadow: 0 0 29px 0 rgb(134 134 134 / 25%);
 }
 
+@media (max-width:1100px){
+    .barra-de-navegacion-principal{
+        display: none;
+    }  
+}
+
 nav{
     display: flex;
     justify-content: flex-end;
@@ -70,8 +76,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
 }
+
+@media (max-width: 1100px){
+    .bloque-de-presentacion {
+        flex-direction: column;
+}
+}
+
 .presentacion{
     width: 100%;
     display: flex;
@@ -128,6 +140,8 @@ max-width: 600px;
     flex-direction: column;
     text-align: center;
     padding: 3em;
+    width: 100%;
+
 }
 .titulo{
     display: flex;
@@ -192,6 +206,7 @@ p{
 }
 
 .misproyectos{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,6 +218,7 @@ p{
     width: 100px;
 }
 .cita{
+    width: 100%;
     background-color: blueviolet;
     background: radial-gradient(circle, rgb(163, 83, 146), blueviolet); 
     color: white;
@@ -307,6 +323,8 @@ textarea {
 .send_button: hover{
     background-color: #d6b4df;
 }
+
+/*hay un margen a la derecha del footer*/
 footer{
     width: 100%;
     background-color: rgb(180 127 203);
@@ -315,7 +333,7 @@ footer{
     align-items: center;
     text-align: center;
     color: white;
-    padding: 30px 20px;
+    
 }
 .bar2{
     list-style: none;
@@ -348,5 +366,5 @@ footer{
 }
 .iconos_footer:hover{
     background-color: rgb(180 127 203);
-    border: 1px solid black;
+    border: 1px solid white;
 }
