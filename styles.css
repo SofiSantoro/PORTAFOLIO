@@ -26,7 +26,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     margin: 0px;
-
+    font-size: 2em;
 }
 
 .barrasuperior{
@@ -42,7 +42,6 @@ nav{
 
 .bar1{
     display: flex;
-    align-items: center;
     list-style: none;
     margin: 15px;
 
@@ -63,6 +62,7 @@ a{
 }
 
 .contacto{
+    font-size: 0.5em;
     background-color: rgb(180 127 203);
     border-radius: 50px;
     padding: 15px 25px;
@@ -109,7 +109,7 @@ a{
 .loquehago{
     color: white;
     background-color: rgb(180 127 203);
-    font-size: 20px;
+    font-size: 1em;
     border-radius: 100px;
     display: flex;
     align-items: center;
@@ -322,6 +322,7 @@ textarea {
 }
 
 /*hay un margen a la derecha del footer*/
+/*no se centran los iconos*/
 footer{
     width: 100%;
     background-color: rgb(180 127 203);
@@ -330,38 +331,50 @@ footer{
     align-items: center;
     text-align: center;
     color: white;
-    
+
 }
 .bar2{
     list-style: none;
     display: flex;
-    font-weight: 500;
     color: white;    
+}
+
+.nav_footer{
+    font-size: 1em;
 
 }
+
 .list_footer_nav{
     margin: 30px;
     color: white;
 }
-.lista_iconos_footer{
+
+.list_footer_icon{
     display: flex;
     list-style: none;
-    justify-content:space-between;
 }
 
-/* Necesito que los iconos svg se vean blancos al colocar el cursor encima*/
-/* por qué se ve un "margen" circular que desfigra la imagen?*/
-.iconos_footer{
-    height: 40px;
-    width: 40px;
-    display: flex;
-    margin: 15px;
+.contenido-lista-footer{
+    background-color:white;
+    margin: 1em;
     border-radius: 50%;
-    background-color: white;
-    padding: 15px;
+    padding: 1em;
     transition: 0.1s;
 }
-.iconos_footer:hover{
+.contenido-lista-footer:hover{
     background-color: rgb(180 127 203);
     border: 1px solid white;
+}
+
+i{
+    color: rgb(180 127 203);
+}
+
+i:hover{
+    color: white;
+    
+}
+
+.corazon{
+    text-align: center;
 }
