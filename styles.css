@@ -49,6 +49,7 @@ nav{
 }
 .link-tarjetas{
     color: black;
+    font-size: 0.5em;
 
 }
 
@@ -152,14 +153,11 @@ max-width: 600px;
     text-align: center;
     font-weight: bold;
 }
-/* el h2 no se "engruesa"*/
+
 h2{
     color: black;
-    font-size: 3.5em;
+    font-size: 3em;
     
-}
-p{
-    font-size: 1.25em;
 }
 
 .languages_icons,
@@ -198,7 +196,6 @@ p{
 }
 
 .imagen-centrada{
-    background-color: red;
     overflow: hidden;
     display: flex;
     align-items: center;
