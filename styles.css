@@ -262,14 +262,32 @@ max-width: 1100px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin:0;
+    margin: 5px 0px;
+    padding: 0;
+    flex-wrap: wrap;
     transition: 0.2s;
 }
 .socialmedia-font{
     color: black;
     display: flex;
+    margin: 8px 0px;
+}
+
+.contactame-redes-iconos{
+    display: flex;
     align-items: center;
 }
+.icono-de-contacto{
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 8px;
+    color: #d6b4df;
+}
+.icono-de-contacto:hover{
+    background-color:#d6b4df;
+    color: white;
+}
+
 .formulario{
     width: 50%;
     padding-right: 20%;
@@ -277,10 +295,15 @@ max-width: 1100px;
 }
 .datos_de_contacto{
     width: 50%;
-    padding-left: 15%;
-    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-weight: bold;
-    max-width: 1000px;
+    margin: 2em;
+}
+
+.descripcion-contactame{
+    max-width: 75%;
 }
 label {
     margin-bottom: 10px;
@@ -322,7 +345,6 @@ textarea {
 }
 
 /*hay un margen a la derecha del footer*/
-/*no se centran los iconos*/
 footer{
     width: 100%;
     background-color: rgb(180 127 203);
@@ -352,27 +374,27 @@ footer{
 .list_footer_icon{
     display: flex;
     list-style: none;
+    padding: 0;
 }
 
 .contenido-lista-footer{
-    background-color:white;
     margin: 1em;
-    border-radius: 50%;
-    padding: 1em;
-    transition: 0.1s;
 }
-.contenido-lista-footer:hover{
+
+.icono-footer{
+    color: rgb(180 127 203);
+    padding: 0.5em;
+    border-radius: 50%;
+    background-color:white;
+    transition: 0.3s;
+
+}
+
+.icono-footer:hover{
+    color: white;
     background-color: rgb(180 127 203);
     border: 1px solid white;
-}
 
-i{
-    color: rgb(180 127 203);
-}
-
-i:hover{
-    color: white;
-    
 }
 
 .corazon{
