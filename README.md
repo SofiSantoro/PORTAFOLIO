@@ -3,11 +3,11 @@ Hi! this is my first proyect studying frontend in [ADA] (https://www.adaitw.org/
 
 I've been learning for about 2 months and this is the result of a hard work and many hours of practice! 💪
 
-The proyect was made with html an CSS, including responsive design for differents screens types.
+The proyect was made with html an CSS, including responsive design for differents screen types.
 
 ---
 
-###Made with ⚒
+### Made with ⚒
 
 VS CODE
 
@@ -16,18 +16,21 @@ VS CODE
 
 ---
 
-###Tools 🔧
+### Tools 🔧
+
 [GITHUB] (https://github.com/SofiSantoro)
 
-[FONT AWESOM] (https://www.fontawesome.com/)
+[FONT AWESOME] (https://www.fontawesome.com/)
 
-[GOOGLE FONTS] (https://googlefonts.com/)
+[GOOGLE FONTS] (https://www.googlefonts.com/)
 
 [COLLECTED NOTES] (https://www.collectednotes.com)
 
-###Author 💡
+### Author 💡
 
 Sofía Santoro.
+
+---
 
 # PORTAFOLIO
 Hola! este es mi primer proyecto de html y CSS estudiando frontend en [ADA] (https://www.adaitw.org/) 🚀
@@ -38,7 +41,7 @@ El proyecto esta compuesto de diferentes secciones, las cuales poseen los conoci
 
 ---
 
-###Construido con ⚒
+### Construido con ⚒
 
 VS CODE
 
@@ -47,16 +50,16 @@ VS CODE
 
 ---
 
-###Herramientas 🔧
+### Herramientas 🔧
 
 [GITHUB] (https://github.com/SofiSantoro)
 
-[FONT AWESOM] (https://www.fontawesome.com/)
+[FONT AWESOME] (https://www.fontawesome.com/)
 
-[GOOGLE FONTS] (https://googlefonts.com/)
+[GOOGLE FONTS] (https://www.googlefonts.com/)
 
 [COLLECTED NOTES] (https://www.collectednotes.com)
 
-###Autora 💡
+### Autora 💡
 
 Sofía Santoro.
