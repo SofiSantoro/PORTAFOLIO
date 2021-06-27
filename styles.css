@@ -140,17 +140,22 @@ max-width: 600px;
     width: 500px;
     height: 500px;
 }
-
+.misproyectos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .conocimientos{
     background-color: #F6F7FB;
     display: flex;
-    align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     padding: 3em;
     width: 100%;
-
+    align-items: center;
 }
 .titulo{
     display: flex;
@@ -173,12 +178,22 @@ h2{
     height: 120px;
     width: 120px;
 }
+.tarjetas-contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .tarjetas-de-pagina{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+
+}
+@media (max-width: 900px){
+    .tarjetas-de-pagina{
+        width: 50%;
+        justify-content: center;
+    }
 }
 .contenedor-imagenes-de-tarjetas{
     text-align: center;
@@ -208,14 +223,6 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.misproyectos{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .comillas{
