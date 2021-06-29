@@ -5,6 +5,8 @@ I've been learning for about 2 months and this is the result of a hard work and 
 
 The proyect was made with html an CSS, including responsive design for differents screen types.
 
+**To visit my proyect, please go to:** https://sofisantoro.github.io/PORTAFOLIO/
+
 ---
 
 ### Made with ⚒
@@ -38,6 +40,8 @@ Hola! este es mi primer proyecto de html y CSS estudiando frontend en [ADA] (htt
 Durante 2 meses fui aprendiendo como utilizar estas herramientas y este es el resultado de un arduo trabajo y muchas horas de práctica! 💪
 
 El proyecto esta compuesto de diferentes secciones, las cuales poseen los conocimientos adquiridos hasta el día de hoy, el mismo se centra en el maquetado de la página y su estilado, incluyendo el diseño responsivo para diferentes pantallas.
+
+**Para ver mi proyecto, por favor ingresar a:** https://sofisantoro.github.io/PORTAFOLIO/
 
 ---
 
