@@ -1,11 +1,11 @@
 # PORTAFOLIO
-Hi! this is my first project studying frontend in [ADA] (https://www.adaitw.org/) 🚀
+Hi! this is my first project studying frontend in [ADA](https://www.adaitw.org/) 🚀
 
 I've been learning for about 2 months and this is the result of a hard work and many hours of practice! 💪
 
 The project was made with html an CSS, including responsive design for differents screen types.
 
-**To visit my project, [click here] (https://sofisantoro.github.io/PORTAFOLIO/).** 
+**To visit my project, [click here](https://sofisantoro.github.io/PORTAFOLIO/).** 
 
 ---
 
@@ -20,13 +20,13 @@ VS CODE
 
 ### Tools 🔧
 
-[GITHUB] (https://github.com/SofiSantoro)
+[GITHUB](https://github.com/SofiSantoro)
 
-[FONT AWESOME] (https://www.fontawesome.com)
+[FONT AWESOME](https://www.fontawesome.com)
 
-[GOOGLE FONTS] (https://www.googlefonts.com)
+[GOOGLE FONTS](https://www.googlefonts.com)
 
-[COLLECTED NOTES] (https://www.collectednotes.com)
+[COLLECTED NOTES](https://www.collectednotes.com)
 
 ### Author 💡
 
@@ -35,13 +35,13 @@ Sofía Santoro.
 ---
 
 # PORTAFOLIO
-Hola! este es mi primer proyecto de html y CSS estudiando frontend en [ADA] (https://www.adaitw.org) 🚀
+Hola! este es mi primer proyecto de html y CSS estudiando frontend en [ADA](https://www.adaitw.org) 🚀
 
 Durante 2 meses fui aprendiendo como utilizar estas herramientas y este es el resultado de un arduo trabajo y muchas horas de práctica! 💪
 
 El proyecto esta compuesto de diferentes secciones, las cuales poseen los conocimientos adquiridos hasta el día de hoy, el mismo se centra en el maquetado de la página y su estilado, incluyendo el diseño responsivo para diferentes pantallas.
 
-**Para ver mi proyecto, por favor ingrese [aquí] (https://sofisantoro.github.io/PORTAFOLIO/).** 
+**Para ver mi proyecto, por favor ingrese [aquí](https://sofisantoro.github.io/PORTAFOLIO/).** 
 
 ---
 
@@ -56,13 +56,13 @@ VS CODE
 
 ### Herramientas 🔧
 
-[GITHUB] (https://github.com/SofiSantoro)
+[GITHUB](https://github.com/SofiSantoro)
 
-[FONT AWESOME] (https://www.fontawesome.com)
+[FONT AWESOME](https://www.fontawesome.com)
 
-[GOOGLE FONTS] (https://www.googlefonts.com)
+[GOOGLE FONTS](https://www.googlefonts.com)
 
-[COLLECTED NOTES] (https://www.collectednotes.com)
+[COLLECTED NOTES](https://www.collectednotes.com)
 
 ### Autora 💡
 
