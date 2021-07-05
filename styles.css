@@ -117,7 +117,7 @@ a{
     border-radius: 100px;
     display: flex;
     align-items: center;
-    justify-content: center;    
+    justify-content: center; 
     width: 150px;
     margin-top: 1em;
     padding: 10px 0px;
@@ -153,8 +153,7 @@ max-width: 600px;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    padding: 3em;
-    width: 100%;
+    padding: 3em 0;
     align-items: center;
 }
 .titulo{
@@ -187,12 +186,12 @@ h2{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
 }
 @media (max-width: 900px){
     .tarjetas-de-pagina{
-        width: 50%;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
 .contenedor-imagenes-de-tarjetas{
@@ -230,7 +229,6 @@ h2{
     width: 100px;
 }
 .cita{
-    width: 100%;
     background-color: blueviolet;
     background: radial-gradient(circle, rgb(163, 83, 146), blueviolet); 
     color: white;
@@ -239,11 +237,24 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 60px;
+    padding: 60px 0;
 }
 .columna{
 width: 100%;
 max-width: 1100px;
+}
+
+.tarjetas-de-proyectos{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+@media (max-width: 900px){
+    .tarjetas-de-proyectos{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .redes_iconos,
@@ -254,7 +265,6 @@ max-width: 1100px;
 
 }
 .contactame{
-    width: 100%;
     text-align: left;
     display: flex;
     flex-direction: column;
@@ -346,7 +356,6 @@ max-width: 1100px;
 @media (max-width: 900px){
     .formulario{
         margin: 0 5em;
-        width: 100%;
     }
 }
 .datos_de_contacto{
@@ -416,7 +425,6 @@ textarea {
 
 /*hay un margen a la derecha del footer*/
 footer{
-    width: 100%;
     background-color: rgb(180 127 203);
     display: flex;
     flex-direction: column;
