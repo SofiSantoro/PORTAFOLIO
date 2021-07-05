@@ -3,7 +3,7 @@ Hi! this is my first project studying frontend in [ADA](https://www.adaitw.org/)
 
 I've been learning for about 2 months and this is the result of a hard work and many hours of practice! 💪
 
-The project was made with html an CSS, including responsive design for differents screen types.
+The project was made with html and CSS, including responsive design for differents screen types.
 
 **To visit my project, [click here](https://sofisantoro.github.io/PORTAFOLIO/).** 
 
